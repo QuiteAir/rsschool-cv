@@ -6,7 +6,9 @@
 3. About me:
     * **Aim in Life -** To keep discovering new things and always have room to grow and evolve. Here’s what drives my interests
         > BJJ 🥋 - Where getting tangled up means progress
+
         > VIM ⌨️  - Spending hours tweaking configurations to save a few seconds of typing
+
         > Factorio 🎮 - Turning chaos into perfectly synchronized factory lines
 4. Skills:
     * HTML, CSS
@@ -18,7 +20,9 @@
     * K6 (simple load tests)
     * Docker
 5. **Code Examples:**
+
 Here's a Docker Compose configuration to run the same PHP script in two different PHP versions (5.6 and 7.0):
+
 ```yaml
 version: "3"
 
@@ -38,6 +42,7 @@ services:
     command: php counter.php
     volumes: 
       - "C:/path/to/workspace/counter:/src/counter/:ro"
+
 ```
 6. **Work Experience:**
     * **Company -** Hero Study 🦸
