@@ -3,7 +3,6 @@
 ## 1. Name: Ramil Kayumov
 
 ### 2. Contacts:
-
 * tg - @RamilTe
 * email - hfvbkmr@gmail.com
 
@@ -26,7 +25,6 @@
 * Docker
 
 ### 5. **Code Examples:**
-
 * Here's a Docker Compose configuration to run the same PHP script in two different PHP versions (5.6 and 7.0):
 
 ```yaml
