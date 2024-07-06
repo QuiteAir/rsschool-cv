@@ -10,6 +10,10 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	background-color: #FDF7E9;
+	color: #D03B00;
+	font-family: "Lora", serif;
+	font-size: 16px;
 }
 
 main {
@@ -23,13 +27,48 @@ footer {
 	text-align: center;
 }
 
+section {
+	padding: 32px;
+}
+
+ul {
+	padding-left: 0;
+}
+
 a {
 	text-decoration: none;
 }
 
-div.code-example {
-	text-align: left;
+a:link {
+	color: #FBFFF5;
 }
+
+a:visited {
+	color: #FBFFF4;
+}
+
+footer {
+	background-color: #5F615D;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background-color: #5F615D;
+	width: 100%;
+}
+
+footer>.container {
+	padding: 16px 0;
+}
+
+
 
 .container {
 	max-width: 1440px;
@@ -37,15 +76,76 @@ div.code-example {
 	text-align: center;
 }
 
-.nav-list {}
+.grey {
+	background-color: #5F615D;
+	border-radius: 2px;
+	color: #FBFFF5;
+}
+
+.underline {
+	border-bottom: 2px solid #5F615D;
+}
+
+.main-section-container,
+.about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-and-contacts-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#me {
+	padding-bottom: 0;
+}
+
+.name {
+	margin-bottom: 0;
+}
+
+#contacts {
+	font-weight: 500;
+}
+
+.contacts-header {
+	display: none;
+}
+
+.nav-list {
+	font-family: "Ubuntu", sans-serif;
+	margin: 16px auto;
+	padding: 0 16px;
+}
 
 .nav-item {
 	display: inline;
 	margin: 0 5px;
 }
 
+.contact-list {
+	text-align: left;
+}
+
+.contact-item {}
+
+/* code example */
+div.code-example {
+	text-align: left;
+	padding-left: 16px;
+}
+
+
+
+/* images */
 .author-avatar {
+	display: block;
 	border-radius: 50%;
+	margin-top: 32px
 }
 
 .rss-logo {
