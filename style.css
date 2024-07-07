@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FDF7E9;
+	color: #D03B00;
+	font-family: "Lora", serif;
+	font-size: 16px;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background-color: #5F615D;
+	width: 100%;
+}
+
+.nav-list {
+	font-family: "Ubuntu", sans-serif;
+	margin: 16px auto;
+	padding: 0 16px;
+}
+
+.nav-item {
+	display: inline;
+	margin: 0 5px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.main-section-container,
+.about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #5F615D;
+	color: #FBFFF5;
+}
+
+footer>.container {
+	padding: 16px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-date-container,
+
+.footer-link-container {
+	width: 30%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+section {
+	padding: 32px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #FBFFF5;
+}
+
+a:visited {
+	color: #FBFFF4;
+}
+
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.grey {
+	background-color: #5F615D;
+	border-radius: 2px;
+	color: #FBFFF5;
+}
+
+.underline {
+	border-bottom: 2px solid #5F615D;
+}
+
+
+.name-and-contacts-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#me {
+	padding-bottom: 0;
+}
+
+.name {
+	margin-bottom: 0;
+}
+
+#contacts {
+	font-weight: 500;
+}
+
+.contacts-header {
+	display: none;
+}
+
+
+
+.contact-list {
+	text-align: left;
+}
+
+.contact-item {}
+
+/* code example */
+div.code-example {
+	text-align: left;
+	padding-left: 16px;
+}
+
+.projects-list>a,
+li.project-item>a:visited {
+	color: #D03B00;
+}
+
+.git-hub-link:hover {
+	color: #000;
+	transition: color 1.5s ease-in-out;
+}
+
+/* images */
+.author-avatar {
+	display: block;
+	border-radius: 50%;
+	margin-top: 32px
+}
+
+.rss-logo {
+	/* 	fill: #FDF7E9; */
+	fill: #FDF7E9;
+	height: 32px;
+}
+
+.rss-logo:hover {
+	fill: #000;
+	transition: fill 1.5s ease-in-out;
+}
+
+.rss-logo:hover .st7 {
+	stroke: #000;
+	fill: #fff;
+	transition: stroke 1.5s ease-in-out;
+	transition: fill 1.5s ease-in-out;
+}
