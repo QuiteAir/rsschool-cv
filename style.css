@@ -16,15 +16,64 @@ body {
 	font-size: 16px;
 }
 
+header {
+	position: sticky;
+	top: 0;
+	background-color: #5F615D;
+	width: 100%;
+}
+
+.nav-list {
+	font-family: "Ubuntu", sans-serif;
+	margin: 16px auto;
+	padding: 0 16px;
+}
+
+.nav-item {
+	display: inline;
+	margin: 0 5px;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center
 }
 
+.main-section-container,
+.about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 footer {
 	width: 100%;
 	text-align: center;
+	background-color: #5F615D;
+	color: #FBFFF5;
+}
+
+footer>.container {
+	padding: 16px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-date-container,
+
+.footer-link-container {
+	width: 30%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Ubuntu", sans-serif;
 }
 
 section {
@@ -47,28 +96,6 @@ a:visited {
 	color: #FBFFF4;
 }
 
-footer {
-	background-color: #5F615D;
-}
-
-h1,
-h2,
-h3 {
-	font-family: "Ubuntu", sans-serif;
-}
-
-header {
-	position: sticky;
-	top: 0;
-	background-color: #5F615D;
-	width: 100%;
-}
-
-footer>.container {
-	padding: 16px 0;
-}
-
-
 
 .container {
 	max-width: 1440px;
@@ -86,13 +113,6 @@ footer>.container {
 	border-bottom: 2px solid #5F615D;
 }
 
-.main-section-container,
-.about {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
 
 .name-and-contacts-container {
 	display: flex;
@@ -116,16 +136,7 @@ footer>.container {
 	display: none;
 }
 
-.nav-list {
-	font-family: "Ubuntu", sans-serif;
-	margin: 16px auto;
-	padding: 0 16px;
-}
 
-.nav-item {
-	display: inline;
-	margin: 0 5px;
-}
 
 .contact-list {
 	text-align: left;
@@ -139,7 +150,15 @@ div.code-example {
 	padding-left: 16px;
 }
 
+.projects-list>a,
+li.project-item>a:visited {
+	color: #D03B00;
+}
 
+.git-hub-link:hover {
+	color: #000;
+	transition: color 1.5s ease-in-out;
+}
 
 /* images */
 .author-avatar {
@@ -149,5 +168,19 @@ div.code-example {
 }
 
 .rss-logo {
-	height: 64px;
+	/* 	fill: #FDF7E9; */
+	fill: #FDF7E9;
+	height: 32px;
+}
+
+.rss-logo:hover {
+	fill: #000;
+	transition: fill 1.5s ease-in-out;
+}
+
+.rss-logo:hover .st7 {
+	stroke: #000;
+	fill: #fff;
+	transition: stroke 1.5s ease-in-out;
+	transition: fill 1.5s ease-in-out;
 }
