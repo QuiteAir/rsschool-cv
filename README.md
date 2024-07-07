@@ -1,4 +1,8 @@
 # rsschool-cv
-RS2020Q3
+<s>RS2020Q3</s>
 
-GitHub Pages - https://quiteair.github.io/rsschool-cv/cv
+JS/FE Pre-School 2024Q2
+
+GitHub Pages CV markdown - https://quiteair.github.io/rsschool-cv/cv
+
+GitHub Pages CV HTML,CSS - https://quiteair.github.io/rsschool-cv/
